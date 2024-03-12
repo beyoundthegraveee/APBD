@@ -13,13 +13,13 @@ class Program
     public static int CountAVG(int[] tab)
     {
         int avg;
-        int sum = 0;
+        int i = 0;
         foreach (int tmp in tab)
         {
-            sum += tmp;
+            i += tmp;
         }
         
-        avg = sum / tab.Length;
+        avg = i / tab.Length;
 
         return avg;
     }
